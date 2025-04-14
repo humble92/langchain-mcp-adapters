@@ -34,7 +34,7 @@ format format_diff:
 	[ "$(PYTHON_FILES)" = "" ] || uv run ruff check --fix $(PYTHON_FILES)
 	[ "$(PYTHON_FILES)" = "" ] || uv run ruff format $(PYTHON_FILES)
 
-	
+
 
 ######################
 # HELP
@@ -49,5 +49,3 @@ help:
 	@echo 'test                         - run unit tests'
 	@echo 'test TEST_FILE=<test_file>   - run all tests in file'
 	@echo '-- DOCUMENTATION tasks are from the top-level Makefile --'
-
-
