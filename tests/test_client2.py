@@ -1,3 +1,9 @@
+# credit: https://www.youtube.com/watch?v=0f3fTTXqTps
+# Working on Linux, WSL; does not work on Windows
+# Setup:
+#   uv venv
+#   uv sync
+
 import sys
 import os
 
